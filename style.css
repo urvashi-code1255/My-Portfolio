@@ -39,7 +39,7 @@ body {
 }
 
 /* About */
-#about h3{
+#about h3, #education h3{
     border-bottom: 4px solid orangered ;
     display: inline-block;
     border-bottom-style: ridge;
@@ -57,7 +57,16 @@ body {
     box-shadow: 2px 2px rgb(211, 83, 36);
 }
 
+/* Education */
+.p1{
+    color: rgb(199, 190, 190);
+    font-size: 0.8rem;
+}
 
+.p2{
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
 /* Media Queries */
 @media only screen and (max-width: 775px) {
     #Navbar, #intro{
