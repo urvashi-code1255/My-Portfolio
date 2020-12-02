@@ -38,20 +38,13 @@ body {
     transition: ease-in-out 1s;
 }
 
+
+
 /* Media Queries */
 @media only screen and (max-width: 775px) {
-    #Navbar{
+    #Navbar, #about{
         display: flex;
         flex-direction: column;
     }
 
-    #about{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #about div{
-        margin-left: auto;
-        margin-right: auto;
-    }
   }
