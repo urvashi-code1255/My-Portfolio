@@ -13,7 +13,6 @@ font-family: 'Satisfy', cursive; */
 
 body {
     font-family: 'Oswald', sans-serif;
-    font-weight: bolder;
 }
 
 #Navbar a{
@@ -39,7 +38,7 @@ body {
 }
 
 /* About */
-#about h3, #education h3{
+#about h3, #education h3, #experience h3{
     border-bottom: 4px solid orangered ;
     display: inline-block;
     border-bottom-style: ridge;
@@ -67,6 +66,28 @@ body {
     color: whitesmoke;
     font-size: 0.9rem;
 }
+
+/* Experience */
+.h{
+    color: rgb(175, 173, 173);
+}
+
+.p{
+    color: rgb(221, 219, 219);
+    font-size: 0.8rem;
+}
+
+.span1{
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
+}
+
+.span2{
+    color: rgb(245, 240, 240);
+    font-family: 'Pacifico', cursive;
+}
+
+
 /* Media Queries */
 @media only screen and (max-width: 775px) {
     #Navbar, #intro{
