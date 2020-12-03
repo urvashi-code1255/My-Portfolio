@@ -5,6 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
     background-color: whitesmoke;
 }
 
+/* Navbar */
 #Navbar a{
     color: white;
     font-size: larger;
@@ -75,16 +77,6 @@ body {
     font-size: 0.8rem;
 }
 
-.span1{
-    font-weight: lighter;
-    font-style: italic;
-}
-
-.span2{
-    font-style: oblique;
-    font-weight: lighter;
-}
-
 /* Skills */
 .skillsIcon{
     animation: mymove 5s ease-in-out infinite;
@@ -124,11 +116,10 @@ body {
 /* Contact */
 #contact {
     font-size: 1.8rem;
-    border-bottom: 16px solid  #343a40;
 }
 
 .i{
-    transform: scale(0.9);
+    transform: scale(0.8);
 }
 
 .i:hover{
