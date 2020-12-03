@@ -38,7 +38,7 @@ body {
 }
 
 /* About */
-#about h3, #education h3, #experience h3, #skills h3{
+#about h3, #education h3, #experience h3, #skills h3, #projects h3{
     border-bottom: 4px solid orangered ;
     display: inline-block;
     border-bottom-style: ridge;
@@ -102,6 +102,27 @@ body {
     from {left: 0px;}
     to {left: 160px;}
   }
+
+/* Projects */
+.card{
+    box-shadow: 5px 5px rgb(99, 98, 98);
+    transform: scale(0.97);
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1);
+    transition: ease-in-out 0.6s;
+}
+
+.hCard{
+    color: rgb(44, 118, 143);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pCard{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 775px) {
