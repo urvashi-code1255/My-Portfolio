@@ -7,12 +7,10 @@ html, body {
     width: 100%;
 }
 
-/* font-family: 'Courgette', cursive;
-font-family: 'Pacifico', cursive;
-font-family: 'Satisfy', cursive; */
-
 body {
     font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    background-color: whitesmoke;
 }
 
 #Navbar a{
@@ -78,14 +76,13 @@ body {
 }
 
 .span1{
-    font-family: 'Satisfy', cursive;
-    font-weight: bolder;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .span2{
-    color: rgb(245, 240, 240);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bolder;
+    font-style: oblique;
+    font-weight: lighter;
 }
 
 /* Skills */
@@ -126,16 +123,16 @@ body {
 
 /* Contact */
 #contact {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    border-bottom: 16px solid  #343a40;
 }
 
 .i{
-    transform: scale(1);
+    transform: scale(0.9);
 }
 
 .i:hover{
-    transform: scale(1.2) ;
-    color: black;
+    transform: scale(1.1) ;
 }
 
 /* Media Queries */
