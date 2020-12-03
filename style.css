@@ -38,7 +38,7 @@ body {
 }
 
 /* About */
-#about h3, #education h3, #experience h3{
+#about h3, #education h3, #experience h3, #skills h3{
     border-bottom: 4px solid orangered ;
     display: inline-block;
     border-bottom-style: ridge;
@@ -84,9 +84,24 @@ body {
 
 .span2{
     color: rgb(245, 240, 240);
-    font-family: 'Pacifico', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
 }
 
+/* Skills */
+.skillsIcon{
+    animation: mymove 5s ease-in-out infinite;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 160px;}
+  }
 
 /* Media Queries */
 @media only screen and (max-width: 775px) {
@@ -95,4 +110,8 @@ body {
         flex-direction: column;
     }
 
+    .skillsIcon{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
   }
