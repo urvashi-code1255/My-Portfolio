@@ -124,6 +124,20 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* Contact */
+#contact {
+    font-size: 2rem;
+}
+
+.i{
+    transform: scale(1);
+}
+
+.i:hover{
+    transform: scale(1.2) ;
+    color: black;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 775px) {
     #Navbar, #intro{
